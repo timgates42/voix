@@ -190,13 +190,13 @@
     /**
      * Expose Voix
      */
-    // AMD suppport
+    // AMD support
     if (typeof window.define === 'function' && window.define.amd !== undefined) {
         window.define('Voix', [], function () {
             return Voix;
         });
 
-    // CommonJS suppport
+    // CommonJS support
     } else if (typeof module !== 'undefined' && module.exports !== undefined) {
         module.exports = Voix;
 
